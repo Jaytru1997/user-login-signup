@@ -2,7 +2,6 @@ body{
     background-position: initial;
     background-image: url("../images/nature.jpg");
     background-size: cover;
-    background-position: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: normal;
     color: white;
@@ -13,7 +12,8 @@ h1{
 }
 
 a{
-    color: rgba(56, 114, 223, 0.637);
+    color: rgba(247, 247, 248, 0.637);
+    text-decoration: none;
 }
 
 div{
@@ -60,7 +60,7 @@ form > input{
     background-color: transparent;
     width: 70%;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     padding: 10px;
     border-top: none;
     border-left: none;
@@ -75,6 +75,7 @@ form > button{
     border: 1px solid;
     padding: 5px;
     margin-top: 10px;
+    justify-content: end;
     border-color: transparent;
 }
 
@@ -82,7 +83,17 @@ form > input::placeholder{
     color: rgb(255, 255, 255);
 }
 
+
 .formicon{
     width: 20px;
     height: 15px;
+}
+.formloginicon{
+    width: 24px;
+    height: 24px;
+}
+.formflexicons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
