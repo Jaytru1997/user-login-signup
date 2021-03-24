@@ -27,19 +27,23 @@ div.header{
     color: white;
 }
 
+div#loginform{
+    margin-top: 50%;
+}
+
 span{
     color:rgba(187, 15, 178, 0.795);
 }
 
 form{
-    padding: 40px;
+    padding: 70px;
     margin: 20px;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.678);
+    background-color: rgba(255, 255, 255, 0.432);
     border: transparent;
     display: inline-block;
     text-align: center;
-    
+
 }
 form > header{
     color: teal;
@@ -54,14 +58,18 @@ form > input{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     border-color: rgba(0, 128, 128, 0.521);
-    border-radius: 10px;
+    border-radius: 0px;
     text-align: left;
+
 }
 form > button{
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.651);
     border: 1px solid;
     padding: 5px;
     margin-top: 10px;
-    border-color: teal;
+    border-color: transparent;
 }
