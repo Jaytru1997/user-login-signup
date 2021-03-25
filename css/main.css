@@ -10,7 +10,13 @@ body{
     font-weight: normal;
     color: white;
 }
-/*
+
+/* mobile first design */
+[class *="col-"]{
+    width: 100%;
+}
+
+@media only screen and (min-width:768px){
 col-lg-1{
 width: 8.33%;
 }
@@ -65,14 +71,13 @@ width: 100%;
     border-color: transparent;
     border: 1px solid;
 }
-*/
+
 .row::after{
     content: "";
     clear: both;
     display: table;
 }
-h1{
-    font-size: 30px;
+
 }
 
 a{
@@ -161,4 +166,4 @@ form > input::placeholder{
     flex-direction: row;
     justify-content: space-around;
 }
- 
+
