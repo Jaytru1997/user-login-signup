@@ -5,8 +5,8 @@
 body{
     background-position: initial;
     background-image: url("../images/nature.jpg");
-    background-size: 100% 100%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: normal;
     color: white;
 }
@@ -16,7 +16,168 @@ body{
     width: 100%;
 }
 
+
+a{
+    color: rgba(247, 247, 248, 0.637);
+    text-decoration: none;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+div.header{
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.322);
+    color: white;
+}
+
+div#loginform{
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+span{
+    color:rgba(187, 15, 178, 0.795);
+}
+
+form{
+    padding: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    background-color: rgba(248, 244, 248, 0.432);
+    border: transparent;
+    display: table;
+    text-align: center;
+
+}
+form > header{
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+form > input{
+    background-color: transparent;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(11, 12, 12, 0.521);
+    border-radius: 0px;
+    text-align: left;
+
+}
+form > button{
+    background-color: rgba(255, 255, 255, 0.651);
+    border: 1px solid;
+    padding: 5px;
+    margin-top: 10px;
+    justify-content: end;
+    border-color: transparent;
+}
+
+form > input::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+
+.formicon{
+    width: 20px;
+    height: 15px;
+}
+.formloginicon{
+    width: 24px;
+    height: 24px;
+}
+.formflexicons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
 @media only screen and (min-width:768px){
+
+    div#loginform{
+        margin-top: 25%;
+        margin-bottom: 25%;
+    }
+    
+    span{
+        color:rgba(187, 15, 178, 0.795);
+    }
+    
+    form{
+        padding: 100px;
+        margin-left: 25%;
+        margin-right: 25%;
+        border-radius: 10px;
+        background-color: rgba(248, 244, 248, 0.432);
+        border: transparent;
+        display: table;
+        text-align: center;
+    
+    }
+    form > header{
+        color: rgb(8, 8, 8);
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+    form > input{
+        background-color: transparent;
+        width: 70%;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-color: rgba(11, 12, 12, 0.521);
+        border-radius: 0px;
+        text-align: left;
+    
+    }
+    form > button{
+        background-color: rgba(255, 255, 255, 0.651);
+        border: 1px solid;
+        padding: 5px;
+        margin-top: 10px;
+        justify-content: end;
+        border-color: transparent;
+    }
+    
+    form > input::placeholder{
+        color: rgb(255, 255, 255);
+    }
+    
+    
+    .formicon{
+        width: 20px;
+        height: 15px;
+    }
+    .formloginicon{
+        width: 24px;
+        height: 24px;
+    }
+    .formflexicons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+
 col-lg-1{
 width: 8.33%;
 }
@@ -80,90 +241,4 @@ width: 100%;
 
 }
 
-a{
-    color: rgba(247, 247, 248, 0.637);
-    text-decoration: none;
-}
-
-div{
-    display: flex;
-    flex-direction: column;
-
-
-}
-
-div.header{
-    position: sticky;
-    background-color: rgba(0, 0, 0, 0.322);
-    color: white;
-}
-
-div#loginform{
-    margin-top: 25%;
-    margin-bottom: 25%;
-}
-
-span{
-    color:rgba(187, 15, 178, 0.795);
-}
-
-form{
-    padding: 70px;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 10px;
-    background-color: rgba(248, 244, 248, 0.432);
-    border: transparent;
-    display: inline-block;
-    text-align: center;
-
-}
-form > header{
-    color: rgb(8, 8, 8);
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-}
-form > input{
-    background-color: transparent;
-    width: 70%;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    padding: 10px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-color: rgba(11, 12, 12, 0.521);
-    border-radius: 0px;
-    text-align: left;
-
-}
-form > button{
-    background-color: rgba(255, 255, 255, 0.651);
-    border: 1px solid;
-    padding: 5px;
-    margin-top: 10px;
-    justify-content: end;
-    border-color: transparent;
-}
-
-form > input::placeholder{
-    color: rgb(255, 255, 255);
-}
-
-
-.formicon{
-    width: 20px;
-    height: 15px;
-}
-.formloginicon{
-    width: 24px;
-    height: 24px;
-}
-.formflexicons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 
